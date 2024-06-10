@@ -3,4 +3,4 @@ class MyIterable:
         self._values = values
 
     def __iter__(self):
-        #return None  # Noncompliant: Not a valid iterator...
+        #return None  # Noncompliant: Not a valid iterator..
