@@ -3,5 +3,5 @@ class MyClass(object):
         self.message = 'Hello'
         return self  # Noncompliant: a TypeError will be raised.
 
-    def generate():
+    def generate(self):
         random.sample(range(1, 47), 6)
