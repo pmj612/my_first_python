@@ -4,4 +4,4 @@ class MyClass(object):
         return self  # Noncompliant: a TypeError will be raised.
 
 def generate():
-        numbers = random.sample(range(1, 47), 6)
+    random.sample(range(1, 47), 6)
